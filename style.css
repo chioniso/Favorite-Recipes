@@ -21,14 +21,12 @@ body {
     justify-content: center;
     margin: 10px;
     color: #e5d0cc;
-    max-width: 100%;
 }
 
 h1 {
     color: #3a0842;
     font-size: 75px;
-    padding: 7px;
-    font-size: 7em;
+    font-size: 5em;
     margin: 20px;
 }
 
@@ -61,4 +59,23 @@ a:hover {
 .cont {
     margin: 10px;
     height: 30px;
+} 
+
+@media (max-width: 500px) {
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    max-width: 100%;
+}
+
+.rec1, .rec2, .rec3, .rec4 {
+    display: grid;
+    background-color: #3a0842;
+    align-content: center;
+    padding: 15px;
+    justify-content: center;
+    margin: 10px;
+    color: #e5d0cc;
+}
 }
