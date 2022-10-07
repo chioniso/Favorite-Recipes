@@ -3,12 +3,14 @@
 body {
     background-color: #e5d0cc;
     font-family: 'Poppins', sans-serif;
+    max-width: 100%;
 }
 
 .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+    max-width: 100%;
 }
 
 .rec1, .rec2, .rec3, .rec4 {
@@ -19,14 +21,15 @@ body {
     justify-content: center;
     margin: 10px;
     color: #e5d0cc;
+    max-width: 100%;
 }
 
 h1 {
     color: #3a0842;
     font-size: 75px;
     padding: 7px;
-    width: 10em;
-    margin: 20px
+    font-size: 7em;
+    margin: 20px;
 }
 
 h2 {
